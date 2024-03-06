@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja i menu</title>
+    <link rel="stylesheet" href="stty.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Powitanie!</h1>
+            <nav>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Profil</a></li>
+                    <li><a href="#">Wykonane zadania</a></li>
+                    <li><a href="#">Reputacja</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="registration">
+            <h2>Rejestracja</h2>
+            <form action="php.php" method="POST">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Zarejestruj</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
